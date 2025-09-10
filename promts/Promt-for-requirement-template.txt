@@ -1,0 +1,65 @@
+Im Folgenden ist die Satzschablone definiert, nach der die Anforderungen formuliert werden müssen:
+
+Gegeben: Das System 
+So einfach es auch scheinen mag – es ist entscheidend, dass Sie das zu betrachtendes System beim Namen nennen. Sie geben dem Leser Ihrer Spezifikation auf diese einfache Art und Weise eine Lese- und Verständnishilfe mit auf den Weg.
+
+Schritt 1: Die rechtliche Verbindlichkeit
+In der RE-Praxis weisen unterschiedliche Stakeholder ein und derselben Anforderung eine unterschiedliche juristische Bedeutung zu. Gerade im Zusammenhang mit Verträgen ist diese Wertung von entscheidender Bedeutung. Ist die rechtliche Verbindlichkeit festgelegt, kann eine Anforderung bei Nichtumsetzung auch eingeklagt werden.
+Wir empfehlen daher, folgende drei Schlüsselwörter zu benutzen: MUSS, SOLLTE und WIRD.
+-	MUSS: Alle Anforderungen, die mit MUSS formuliert sind, sind verpflichtend in der Umsetzung. Die Abnahme eines Produkts kann verweigert werden, sollte das System einer MUSS-Anforderung nicht entsprechen. 
+-	SOLLTE: Formulierungen mit SOLLTE stellen einen Wunsch eines Stakeholders dar. Sie sind nicht verpflichtend und müssen nicht erfüllt werden. Allerdings erhöht ihre Umsetzung die Zufriedenheit der Stakeholder und ihre Dokumentation verbessert die Zusammenarbeit und Kommunikation zwischen Stakeholdern und Entwicklern/Auftragnehmern. 
+-	WIRD: Mit WIRD dokumentieren Sie die Absicht eines Stakeholders. Eine mit WIRD formulierte Anforderung dient als Vorbereitung für eine in der Zukunft liegende Integration einer Funktion. Sie ist verpflichtend in der Umsetzung zu berücksichtigen, auch wenn ihre Realisierung zunächst nicht getestet wird. 
+
+Schritt 2: Das Prozesswort
+Charakteristisch für die deutsche Syntax und somit auch für Anforderungen, die nach Satzschablone geschrieben sind, ist die Klammer aus finitem Verb (bei uns MUSS, SOLLTE oder WIRD) und infinitem Verb (bei uns Prozesswort). So endet ein Anforderungssatz nach der Satzschablone mit einem Prozesswort im Infinitiv. Es ist der semantische Kern der Anforderung, denn es nennt die Funktion eines Systems. Daher ist es wichtig, Prozesswörter in einer Prozesswortliste zu halten.
+
+Schritt 3: Die Art der Funktionalität 
+Mit der Satzschablone können drei unterschiedliche Funktionsarten beschrieben werden:
+-	Selbsttätige Systemaktivität: Ein System startet eine Funktion automatisch und führt sie anschließend automatisch aus. Diese Anforderungen formulieren Sie mit der entsprechenden rechtlichen Verbindlichkeit (Modalverben MUSS, SOLLTE oder Hilfsverb WIRD) und einem Prozesswort im Infinitiv. Das Prozesswort bildet die Funktion des Systems ab, die es selbsttätig durchführt. Ein Benutzer tritt dabei nicht in Erscheinung.
+-	Benutzerinterkation: Das System stellt seinem Benutzer eine Funktionalität zur Verfügung oder es tritt mit ihm in Interaktion (das kann z. B. in Form einer Auswahlmaske geschehen). Für diese Interaktion zwischen System und Benutzer wählen Sie die Formulierung DIE MÖGLICHKEIT BIETEN und ein Prozesswort im Infinitiv mit zu. Hinter der Rolle verbirgt sich ein mit dem System interagierender Benutzer.
+-	Schnittstellenanforderung: Mit Anforderungen an Schnittstellen wird der Fall abgedeckt, dass ein System eine Funktion nur in Anhängigkeit der Informationsübergabe durch einen Dritten, der nicht der Benutzer ist, ausführen kann. Das kann ein Nachbar- oder Fremdsystem sein. Die Übergabe der Informationen kann in unregelmäßigen Abständen erfolgen und unvorhersehbar sein. Formulieren Sie diese Anforderungen mit FÄHIG SEIN und einem Prozesswort im Infinitiv mit ZU. 
+
+Schritt 4: Das Objekt 
+Anschließend wird von der Satzschablone ein Objekt gefordert. Objekte sind fachlich wertvolle Begriffe im Kontext des betrachteten Gegenstandes. Unter solch ein Betrachtungsgegenstand kann Ihr System oder auch nur Teile Ihres Systems fallen. An dieser vierten Position der Satzschablone können die semantisch verschiedensten Substantive stehen. Die Semantik wird dabei stark vom Prozesswort beeinflusst, d. h. welches Objekt denn überhaupt Sinn in einer Anforderung macht, ist vom Prozesswort abhängig. 
+Folgende Objektkandidaten können als Beispile dienen:
+Greifbare Objekte (z.B. Fließband, Temperatursensor, Telefon),
+Rollen, die von Objekten gespielt werden (z.B. Pilot, Mitarbeiter, Käufer),
+Objekte, die andere Objekte zusammenfassen (z.B. Steuerprogramm, Montageanleitung, Rezept),
+Vorgänge, Geschehnisse (z.B. Anruf, Verkauf, Schaltvorgang)
+
+Schritt 5: Die Bedingungen 
+In der Praxis sind aber nicht nur einfache Anforderungssätze gebräuchlich. Funktionale Anforderungen sind häufig an Bedingungen geknüpft. Bestimmte Funktionen stellt ein System erst unter einer Reihe von Bedingungen zur Verfügung.
+Wie aber formulieren Sie eine gut verständliche Anforderung mit diesen komplexen Informationen? An dieser Stelle sei lediglich auf die Syntax einer komplexen Anforderung bzw. Satzes hingewiesen. Die Bedingung in Form eines Nebensatzes eröffnet den Satz auf der ersten Position Nach einem Komma folgt das finite Verb bzw. die rechtliche Verbindlichkeit auf der zweiten Position. Das eigentliche System wird auf der dritten Position genannt. Die anderen Positionen der Satzschablone verändern sich nicht.
+In folgenden zwei Beispielen wird dies deutlich: 
+-	Sobald das Ereignis Geburtstag eintritt, muss das System dem Benutzer einen Kalendereintrag anzeigen.
+-	Falls der Benutzer einen Termin eingibt, muss das System dem Benutzer die Möglichkeit bieten, den Termin zu speichern.
+Bei den Bedingungen unterscheide man zwischen Logik, Ereignis und Zeitraum.
+Logische Bedingungen (LogikMASTER): 
+Für die logische Bedingungen muss „falls“ verwendet werden.
+Folgende Beispiele sollen helfen, die komplexen Formulierungsmöglichkeiten des LogikMASTER besser zu erfassen:
+-	Falls das Bibliothekssystem die Funktion Registrierungsdaten verifizieren nicht erfolgreich beendet, … 
+-	Falls das Bibliothekssystem das Leihobjekt nicht identifiziert, …
+-	Falls der Bibliothekskunde das Leihobjekt reserviert, …
+-	
+Erst wenn die durch den LogikMASTER formulierte Bedingung erfüllt ist, tritt der Anforderungshauptsatz ein. Aus diesem Grund kann die logische Aussage, die auf die Konjunktion FALLS folgt, nicht in der Vergangenheit stehen. Als Zeitform für den LogikMASTER empfehlen wir Präsens. Sollten Sie auf eine Bedingung mit der Konjunktion FALLS in einer anderen Zeitform stoßen, hinterfragen Sie sie, um eine Bedeutungsverschiebung zu vermeiden. In den Ausführungen zum EreignisMASTER wird die Verwendung des Perfekts empfohlen.
+
+Ereignisse (EreignisMASTER):
+Für die Ereignisse muss „sobald“ verwendet werden.
+Die folgenden Beispiele greifen auf jeweils einen Pfad des EreignisMASTERs zurück.
+-	Sobald im Bibliothekssystem das Ereignis Logindaten prüfen eintritt, …
+-	Sobald der Bibliothekar die Funktion Kunde registrieren aufgerufen hat, …
+-	Sobald der Bibliothekar alle Kundendaten eingegeben hat, …
+-	Sobald das Bibliothekssystem die Funktion Leihobjekt suchen abgeschlossen hat, ...
+-	Sobald das Bibliothekssystem die Kundendaten vom benachbarten Bibliothekssystem empfangen hat, … 
+Allen Beispielen ist folgende Semantik gemeinsam: Mit der Konjunktion sobald wird eine Ungleichzeitigkeit der Bedingung und des Anforderungshauptsatzes ausgedrückt. Erst wenn die Bedingung beendet ist, beginnt bzw. gilt das funktionale oder nicht-funktionale Verhalten im Hauptsatz. In den bisherigen Bedingungsschablonen stand das Prozesswort immer im Präsens. An dieser Stelle empfehlen wir, das Prozesswort im Perfekt zu schreiben, um die zeitliche Ungleichheit von Neben- und Hauptsatz zu verdeutlichen.
+
+Zeitraum (ZeitraumMASTER):
+Für den Zeitraum muss „solange“ verwendet werden.
+Auch der ZeitraumMASTER bietet mehrere Möglichkeiten, eine Bedingung zu formulieren.
+-	Solange sich ein Leihobjekt im Zustand Reserviert befindet, … 
+-	Solange sich das Bibliothekssystem im Zustand Wartung befindet, … 
+-	Solange der Administrator den Namen eines neuen Mitarbeiters aufruft, … 
+-	Solange sich das Handy im Zustand Flugmodus befindet, … 
+In allen Beispielanforderungen wird mit der Konjunktion SOLANGE die Gleichzeitigkeit des Neben- und Hauptsatzes ausgedrückt. Das bedeutet, dass sowohl die Bedingung als auch der Anforderungshauptsatz gleichzeitig enden.
+
+Eine Bedingung darf nicht mit „wenn“ formuliert werden!

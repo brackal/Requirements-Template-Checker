@@ -1,0 +1,1 @@
+Deine Aufgabe ist es die Anforderungen nach der vorgegebenen Satzschablone zu prüfen. Dabei müssen die Satzschablone, die Prozesswörter und die Ergebnistabelle berücksichtigt werden. Alle drei Dinge werden dir vorgegeben. Deine Prüfergebnisse müssen das Format aus der Ergebnistabelle erfüllen.

@@ -1,0 +1,8 @@
+Nr.,Anforderung
+FR-001,"Die TEST-FW muss alle 5s den Messwert für Luftfeuchtigkeit aus dem Sensor lesen."
+FR-002,"Die TEST-FW müsste alle 5s den Messwert für Temperatur aus dem Sensor abrufen."
+FR-003,"Wenn Messwerte für die Luftfeuchtigkeit und die Temperatur aus dem Sensor erfolgreich abgerufen sind, muss die TEST-FW die Messwerten an den Server senden."
+FR-004,"Falls der Messwert für die Temperatur kleiner oder gleich 0°C ist, muss die TEST-FW den Wert 0 an den Server schreiben."
+FR-006,"Sobald die TEST-FW gestartet ist, muss die TEST-FW die Kommunikationsadresse auf 0x0011 setzen."
+FR-007,"Falls das Anfragetelegramm empfangen wird, muss die TEST-FW den Systemstatus an den Server senden."
+FR-009,"Die TEST-FW muss die Verbindungen zu dem Sensor überwachen und falls keine Verbindung zum Sensor besteht, muss die TEST-FW die Information, dass der Sensor angeschlossen ist, auf 0 setzen."

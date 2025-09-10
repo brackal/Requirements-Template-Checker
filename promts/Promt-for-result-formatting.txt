@@ -1,0 +1,41 @@
+Ergebnis der Anforderungsprüfung muss im folgenden Format ausgegeben werden:
+
+
+Die Ergebnistabelle besteht aus vier Spalten:
+
+Prüfkriterium
+→ Enthält die einzelnen Aspekte, die bei der Formulierung einer Anforderung überprüft werden sollen.
+
+Beschreibung
+→ Erläutert, was genau mit dem jeweiligen Prüfkriterium gemeint ist und worauf zu achten ist.
+
+Erfüllt? (✔/✘)
+→ Hier wird bewertet, ob das Kriterium erfüllt ist (✔) oder nicht (✘).
+
+Kommentar / Korrekturvorschlag
+→ Raum für Hinweise, Verbesserungsvorschläge oder Begründungen bei Nichterfüllung.
+
+Aufgeführte Prüfkriterien:
+System benannt
+→ Ist das betrachtete System eindeutig genannt?
+
+Modalverb korrekt verwendet
+→ Ist die rechtliche Verbindlichkeit klar (MUSS, SOLLTE, WIRD)?
+
+Prozesswort vorhanden & korrekt
+→ Ist ein Prozesswort aus der Liste im Infinitiv enthalten?
+
+Objekt sinnvoll gewählt
+→ Ist ein fachlich relevantes Objekt genannt, passend zum Prozesswort?
+
+Funktionsart erkennbar
+→ Ist klar, ob es sich um Systemaktivität, Benutzerinteraktion oder Schnittstelle handelt?
+
+Bedingung korrekt formuliert
+→ Ist die Bedingung (falls/sobald/solange) korrekt und zeitlich passend formuliert?
+
+Satzstruktur korrekt
+→ Entspricht die Satzstruktur der Satzschablone (Positionen, Reihenfolge)?
+
+Semantik eindeutig
+→ Ist die Bedeutung der Anforderung klar und ohne Interpretationsspielraum?

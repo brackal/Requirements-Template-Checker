@@ -1,0 +1,14 @@
+Im folgenden sind Prozesswörter definiert:
+
+
+abrufen | query
+Im System muss abrufen den Prozess bedeuten, bei dem ein System Daten anfordert.
+
+setzen | set
+Im System muss setzen den Prozess bedeuten, bei dem ein System einen Wert, Zustand oder eine Eigenschaft aktiv festlegt oder verändert.
+
+senden | send
+Im System muss senden den Prozess bedeuten, bei dem ein System Daten oder Informationen zu einem definierten Ziel überträgt.
+
+überwachen | monitor
+Im System muss überwachen den Prozess bedeuten, bei dem ein System Zustand oder Ablauf kontinuierlich beobachtet und prüft.
