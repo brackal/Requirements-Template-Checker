@@ -15,5 +15,17 @@ All prompts and requirements are written in German.
   - `Promt-for-result-formatting.docx`: Specifies the evaluation criteria and format
 - Then let the AI check your requirements. You can either have individual requirements checked, or a collection (`requirements.csv`) of requirements.
 
-## todo
+## Example
+Let AI check following requirement:
+
+"Die TEST-FW muss die Verbindungen zu dem Sensor überwachen und falls keine Verbindung zum Sensor besteht, muss die TEST-FW die Information, dass der Sensor angeschlossen ist, auf 0 setzen."
+
+Here is an answer:
+
+![Answer](images/answer.JPG "Answer")
+
+## Python script
+The AI algorithm can be stored in a Python script. The script reads requirements.cvs and outputs checkResults.xlsx.
+
+![CheckResults](images/checkResults.JPG "CheckResults")
 
