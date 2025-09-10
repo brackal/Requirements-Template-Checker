@@ -25,7 +25,13 @@ Here is an answer:
 ![Answer](images/answer.JPG "Answer")
 
 ## Python script
-The AI algorithm can be stored in a Python script. The script reads requirements.cvs and outputs checkResults.xlsx.
+You can let AI store its algorithm in a Python script. The script reads requirements.cvs and outputs checkResults.xlsx. The `RequirementsTemplateChecker.py` is an example of what the script looks like.
+
+Execute the script:
+
+`python RequirementsTemplateChecker.py` 
+
+and you will get the following results:
 
 ![CheckResults](images/checkResults.JPG "CheckResults")
 
