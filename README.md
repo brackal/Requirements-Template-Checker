@@ -1,4 +1,4 @@
-# Requirements-Template-Checker
+# Requirements-Content-Checker
 
 ## Project Description
 The idea is to use AI to examine the structure of software requirements written according to a specific sentence template.
@@ -25,11 +25,11 @@ Here is an answer:
 ![Answer](images/answer.JPG "Answer")
 
 ## Python script
-You can let AI store its algorithm in a Python script. The script reads requirements.cvs and outputs checkResults.xlsx. The `RequirementsTemplateChecker.py` is an example of what the script looks like.
+You can let AI store its algorithm in a Python script. The script reads requirements.cvs and outputs checkResults.xlsx. The `RequirementsContentChecker.py` is an example of what the script looks like.
 
 Execute the script:
 
-`python RequirementsTemplateChecker.py` 
+`python RequirementsContentChecker.py` 
 
 and you will get the following results:
 
